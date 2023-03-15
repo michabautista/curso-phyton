@@ -1,4 +1,5 @@
 import matplotlib.pyplot as plt 
+import numpy as np
 
 def generate_pie_chart():
     labels = [ 'A','B','C']
@@ -7,5 +8,5 @@ def generate_pie_chart():
     fig, ax = plt.subplots()
     ax.pie(labels=labels, x=values)
     plt.savefig ('pie2.png')
-    plt.close()
+    plt.close() 
 
